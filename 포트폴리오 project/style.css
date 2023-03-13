@@ -1,0 +1,234 @@
+*{ 
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#000;
+
+}
+.header{
+    display:flex;
+    width:1280px;
+    height:150px;
+    margin:auto;
+    /*background-color: red;*/
+    
+}
+
+.title{
+    padding-top : 20px;
+    padding-right: 20px;
+    font-size:60px;
+    font-weight:bold;
+    /*background-color: blue;*/
+}
+
+.searchArea{
+    width:200px;
+ 
+    padding-top:45px;
+    padding-left:20px;
+    padding-right:50px;
+    /*background-color: skyblue;*/
+}
+
+.searchArea > input{
+    
+    height:50px;
+    width: 250px;
+    border-radius: 15px;
+    border-width:10px;
+    
+    outline: none;
+
+}
+
+.nav{
+    display:flex;
+}
+
+.nav > li{
+    margin-left:60px;
+    margin-top: 45px;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.home{
+    display:flex;
+    width:1280px;
+    height:500px;
+    margin:auto;
+    /*background-color: blue;*/
+}
+
+.background{
+    width:1280px;
+    height:450px;
+
+    margin:auto;
+    /*background-color: aqua;*/
+    display: flex;
+}
+
+.codingPicture{
+    width: 640px;
+    height:360px;
+    background-image:url(code.jpg);
+    /*background-color: blueviolet;*/
+}
+
+.codingText{
+    padding-left:60px;
+    width:640px;
+    height:450px;
+    /*background-color: brown;*/
+    
+}
+
+.codingText >li:nth-last-child( 10 ){
+
+    font-weight: bold;
+    font-size:50px;
+}
+
+.codingText >li:nth-last-child( 9 ){
+    padding-top:10px;
+    font-weight: bold;
+    font-size:30px;
+}
+
+.codingText >li:nth-last-child( 8 ){
+    padding-top:10px;
+    font-size:22px;
+ 
+}
+.codingText >li:nth-last-child( 7 ){
+    padding-top: 5px;
+}
+
+.about{
+    width:1280px;
+    padding-left:150px;
+    height:150px;
+    margin: auto;
+  
+    border: 5px solid black;
+    border-radius: 5px;
+    /*background-color: aquamarine;*/
+}
+
+.pickme{
+    display: flex;
+}
+.pickmeText{
+    width: 1280px;
+    height:200px;
+    display: flex;
+    /*background-color: bisque;*/
+}
+.pickmeText > div{
+    width :700px;
+    font-size:60px;
+    font-weight: bold;
+    padding-left : 20px;
+    padding-top: 30px;
+    /*background-color: darkgreen;*/
+}
+
+.pickmeText > button{
+    width:300px;
+    height: 80px;
+    font-size : 50px;
+    font-weight: bold;
+    margin-left:10px;
+    margin-top : 40px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+   
+}
+
+.service{
+    width: 1280px;
+    height: 300px;
+    
+    
+    margin: auto;
+}
+
+.serviceTitle{
+    width: 1280px;
+    height: 150px;
+    margin-top: 50px;
+    
+}
+
+.serviceTitle > li{
+    font-size:50px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.serviceT{
+    display: flex;
+}
+
+.vue{
+    width: 400px;
+    height: 100px;
+    
+}
+
+.vue > li{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+
+
+
+.react{
+    width: 400px;
+    height: 100px;
+    margin-left: 40px;
+   
+}
+
+.react > li {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;  
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+
+
+.typescript{
+    width: 400px;
+    height: 100px;
+    margin-left: 40px;
+ 
+}
+
+.typescript > li{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;  
+    border: 5px solid black;
+    border-radius: 30px;
+}
+
+.contact{
+    width: 1280px;
+    height: 100px;
+    margin : auto;
+   
+}
